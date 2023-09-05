@@ -14,8 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CompanyTest {
     Company company;
     Employee[] employees;
-
-    @BeforeEach
+@BeforeEach
     void setUp() {
         company = new CompanyImpl(5);
         employees = new Employee[4];
